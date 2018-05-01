@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=width-device", initial-scale="1.0">
+<style>
+
+.button {
+    background-color: #4CAF50; /* Green */
+    color: blue;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;   
+    margin:2px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-right:1.5%;
+    text-decoration: NONE;
+}
+.top{
+   float: right;
+   align-content: 100%; 
+   color:blue;
+   background-color:palevioletred;
+   border-radius: 20%;
+   cursor: pointer;
+}
+.top:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.media{
+    background-color: yellowgreen;
+}
+.img1{
+    
+    width: 50px;
+    float: top-right;
+     
+}
+.g1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+* box-sizing: border-box;
+
+.g1 {
+  border: 2px lightseagreen;
+  border-radius: 5px;
+}
+
+.g1 > div {
+  border: 2px lightseagreen;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  padding: 10px;
+  color:aqua;
+}
+
+.nested {
+  border: 2px #f1f1f1;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  padding: 1em;
+}
+.g2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5em;
+  height: 100px;
+}
+* {box-sizing: border-box;}
+
+.g2 {
+  border: 2px pink;
+  border-radius: 5px;
+  background-color: white;
+  height:300px;
+}
+
+.g2 > div {
+  border: 2px lightseagreen;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  padding: 20px;
+  margin: 10px;
+  color: green;
+  margin-left:3cm;
+}
+body{
+  margin:0;
+}
+
+.nested {
+  border-radius: 5px;
+  background-color: olive;
+  padding: 1em;
+}
+.img2{
+    width: 100%;
+}
+.last1{
+   margin-right: 10cm;
+   padding-left:5cm;
+}
+.last2{
+  margin-left:10px;
+}
+@media screen and (250px :6280px) {
+  .media {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .top{
+    width: 100px;  
+  }
+}
+</style>
+</head>
+<body>
+  <div class="media">
+      <img src="http://www.i3indyatechnologies.com/img/logo.png">    
+      <a href="http://www.i3indyatechnologies.com/" <button class="button top">About</button></a>    
+      <img hspace="650px" class="img1" src="http://www.i3indyatechnologies.com/img/workshop.png" >     
+  </div>
+      <h1 align="center" style="timesnewroman"><b>Workshops We Offer</b></h1>
+      <hr color="dodgerblue" width="35px">
+      <p align="center">Organized workshops in more than 800+ colleges and trained more than 1,00,000+ students, i3indya is very well known companies in India's cream colleges like IIT Bombay, IIT Kanpur, IIT Roorkee, IIT Delhi, IIT Hyderabad, IIT Bhubaneshwar, NIT's and Top Deemed Universities of India.</p>
+  <div align="center" class="g1">
+              <div>
+                      <img class="img2"src="http://www.i3indyatechnologies.com/img/work/Cyber-Security.jpg">
+                      <a href="https://www.udemy.com/the-ethical-hacking-course-for-cyber-security-hackers/">CYBERSECURITY AND ETHICAL HACKING </a>            
+              </div>
+              <div>
+                      <img class="img2"src="http://www.i3indyatechnologies.com/img/work/Robotics.jpg">
+                      <a href="https://www.slideshare.net/peeyush_sahu/an-introduction-to-robotics-and-embedded-system">EMBEDDED SYSTEMS AND ROBOTICS</a>
+              </div>
+              <div>
+                      <img class="img2"src="http://www.i3indyatechnologies.com/img/work/Application-Development.jpg">
+                      <a href="https://cdac.in/index.aspx?id=mc_ilf_app_dev_tools">APPLICATION AND DEVOLOPMENT</a>
+              </div>
+   </div>
+          <div class="g2">
+              <div class="last1" align="right">
+                      <a href="http://www.i3indyatechnologies.com/upcoming-workshop-details.html?t=GoogleSearch">
+                      <img src="http://www.i3indyatechnologies.com/img/join.jpg"></a>
+                      <div align="center"><h3>Join in</h3></div>
+              </div>
+              <div class="last2">
+                      <a href="http://www.i3indyatechnologies.com/organise-workshop.html?t=GoogleSearch">
+                      <img src="http://www.i3indyatechnologies.com/img/organise.jpg"><a>
+                      <h3 >What to Organise</h3>
+              </div>  
+                <h3 align="right">Designed by vyshnavi,<a href="http://www.i3indyatechnologies.com/index.html?t=">i3 indya</a></h3>
+          
+          </div>
+ </div>
+</body>
+</html>
+ 
